@@ -16,7 +16,7 @@
   weight: 8
   startingGear: PlanetfallT1SubLeaderGear
   alwaysUseSpawner: true
-  icon: "JobIconUnionfallDSMOfficer"
+  icon: "JobIconPFT1sublead"
   requireAdminNotify: true
   supervisors: job-supervisors-pf
   canBeAntag: false
@@ -84,4 +84,5 @@
     head: ClothingHeadHatShinoharaBeretUA
     outerClothing: ClothingOuterArmorShinoharaArmorHighsecUA
     belt: ClothingBeltSecurityFilled
+    eyes: ClothingEyesHudSecurity
 

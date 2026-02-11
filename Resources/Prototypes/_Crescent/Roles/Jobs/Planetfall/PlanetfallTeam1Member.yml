@@ -6,7 +6,7 @@
   weight: 2
   startingGear: PlanetfallT1MemberGear
   alwaysUseSpawner: true
-  icon: "JobIconUnionfallDSMRifleman"
+  icon: "JobIconPFT1member"
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 0
@@ -51,3 +51,4 @@
     back: ClothingBackpackSHISatchel
     head: ClothingHeadHatShinoharaBeretUA
     belt: ClothingBeltSecurityFilled
+    eyes: ClothingEyesHudSecurity

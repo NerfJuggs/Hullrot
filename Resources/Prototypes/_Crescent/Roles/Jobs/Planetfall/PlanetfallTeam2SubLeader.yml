@@ -1,6 +1,6 @@
 - type: job
   id: PlanetfallTeam2SubLeader
-  name: job-name-planetfall-team1-subleader
+  name: job-name-planetfall-team2-subleader
   description: job-description-planetfall-team-subleader
   playTimeTracker: ConscriptDSM
   requirements:
@@ -16,7 +16,7 @@
   weight: 8
   startingGear: PlanetfallT2SubLeaderGear
   alwaysUseSpawner: true
-  icon: "JobIconUnionfallDSMOfficer"
+  icon: "JobIconPFsublead"
   requireAdminNotify: true
   supervisors: job-supervisors-pf
   canBeAntag: false

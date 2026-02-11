@@ -17,7 +17,7 @@
   weight: 9
   startingGear: PlanetfallT2LeaderGear
   alwaysUseSpawner: true
-  icon: "JobIconUnionfallDSMLeader"
+  icon: "JobIconPFlead"
   requireAdminNotify: true
   supervisors: job-supervisors-pf
   canBeAntag: false

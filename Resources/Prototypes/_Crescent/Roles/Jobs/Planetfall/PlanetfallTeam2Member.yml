@@ -6,7 +6,7 @@
   weight: 2
   startingGear: PlanetfallT2MemberGear
   alwaysUseSpawner: true
-  icon: "JobIconUnionfallDSMRifleman"
+  icon: "JobIconPFmember"
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 0
