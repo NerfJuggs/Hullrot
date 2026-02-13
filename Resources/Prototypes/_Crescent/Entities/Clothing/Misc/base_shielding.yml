@@ -90,8 +90,7 @@
       params:
         variation: 0.250
     onUse: false
-    onAltUse: true
-    onActivate: false
+    onActivate: true
   - type: PointLight
     enabled: false
     radius: 1.4
