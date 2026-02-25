@@ -106,6 +106,9 @@
   - type: DamageOtherOnHit
     staminaCost: 8.0
   - type: Appearance
+  - type: ReverseEngineering
+    recipes:
+      - WeaponShotgunTuberCyberdawn
 
 - type: entity
   name: PTA MOD-1 Twinshot 12g
@@ -510,6 +513,11 @@
     sound: /Audio/_Crescent/Weapons/Interact/gun_pick.ogg
   - type: EmitSoundOnDrop
     sound: /Audio/_Crescent/Weapons/Interact/gun_drop.ogg
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponShotgunSaiga12NCSP
+      - WeaponShotgunTuberCyberdawn
 
 - type: entity
   name: HGS VAP-16S Haulikko 12g

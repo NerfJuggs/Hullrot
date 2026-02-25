@@ -70,6 +70,7 @@ research-technology-cyberdawn-advancedballistics = Advanced Syndicate Ballistics
 research-technology-cyberdawn-T1-Infiltration = Basic infiltration technology
 research-technology-cyberdawn-T2-Infiltration = Advanced infiltration technology
 research-technology-cyberdawn-T3-Infiltration = Experimental infiltration technology
+research-technology-cyberdawn-marauder = Cyberdawn Light Exosuit
 research-technology-cyberdawn-energydagger = Concealable Hardlight Dagger
 research-technology-cyberdawn-zhongyao = Zhongyao Tacsuit
 research-technology-cyberdawn-egui = Egui Stealth Tacsuit

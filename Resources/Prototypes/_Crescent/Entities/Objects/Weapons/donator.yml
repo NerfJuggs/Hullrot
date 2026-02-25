@@ -270,6 +270,10 @@
     sound: /Audio/_Crescent/Weapons/Interact/gun_pick.ogg
   - type: EmitSoundOnDrop
     sound: /Audio/_Crescent/Weapons/Interact/gun_drop.ogg
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - WeaponSpecialKingpinCyberdawn
 
 - type: construction
   name: C-8X 27mmR autocannon
@@ -646,6 +650,10 @@
     shape:
       - 0,0,2,1
     sprite: _Crescent/Objects/Weapons/plasmacutter.rsi
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 3
+    recipes:
+      - WeaponDonorPlasmaCutter
 
 - type: hitscan
   id: PlasmaCutterBolt

@@ -1,4 +1,10 @@
 # IPMs catalog for the id/dogtag console, using Samples as currency
+
+- type: storeCategory
+  id: StoreCategoryIPMShips
+  name: Interdyne Ships
+  priority: 16
+
 - type: storeCategory
   id: StoreCategoryIPMCybernetics
   name: Interdyne Cybernetics
@@ -18,6 +24,62 @@
   id: StoreCategoryIPMMedicalEquipment
   name: Interdyne Meditech
   priority: 8
+
+# LPCs
+- type: listing
+  id: StoreListingIPMHulk
+  name: IPM Hulk LPC
+  description: Effectively an entire hospital station equipped with every possible service a war-torn sector could require, and modified with enough thrusters to be legally classified as a ship. Said be to commissioned by an enterprising Felinid.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherHulk
+  cost:
+    SampleIPM: 20
+  categories:
+  - StoreCategoryIPMShips
+
+- type: listing
+  id: StoreListingIPMMatabele
+  name: IPM Matabele LPC
+  description: A state of the art, high-risk paramedic vessel with mass signature cloaking technology. Often misused for less reputable acts.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherMatabele
+  cost:
+    SampleIPM: 10
+  categories:
+  - StoreCategoryIPMShips
+
+- type: listing
+  id: StoreListingIPMHarpy
+  name: IPM Harpy LPC
+  description: A corvette-sized clinic, equipped with missile launchers. Only in Taypan does such a sentence seem normal.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherHarpy
+  cost:
+    SampleIPM: 5
+  categories:
+  - StoreCategoryIPMShips
+
+- type: listing
+  id: StoreListingIPMMeatwagon
+  name: IPM Meatwagon LPC
+  description: One of the few corvette Interdyne can field, decently armed and well protected.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherMeatwagon
+  cost:
+    SampleIPM: 5
+  categories:
+  - StoreCategoryIPMShips
+
+- type: listing
+  id: StoreListingIPMFridge
+  name: IPM Fridge LPC
+  description: An unarmed corpse recovery vessel for picking up those with less important insurances.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherFridge
+  cost:
+    SampleIPM: 3
+  categories:
+  - StoreCategoryIPMShips
 
 # Cybernetics
 - type: listing

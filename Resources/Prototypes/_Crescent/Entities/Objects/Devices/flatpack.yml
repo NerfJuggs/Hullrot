@@ -460,6 +460,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1500
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - LargeBallisticHardpointFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -474,6 +478,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1500
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - LargeMissileHardpointFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -488,6 +496,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1500
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - SmallBallisticHardpointFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -502,6 +514,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1500
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - SmallMissileHardpointFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -516,6 +532,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1500
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - MediumBallisticHardpointFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -530,6 +550,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1500
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - MediumMissileHardpointFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -558,6 +582,7 @@
     - state: kit
   - type: StaticPrice
     price: 12000
+  - type: ReverseEngineering # Sector Crescent
     difficulty: 3
     recipes:
       - BogatyrFlatpack
@@ -575,6 +600,7 @@
     - state: kit
   - type: StaticPrice
     price: 12000
+  - type: ReverseEngineering # Sector Crescent
     difficulty: 3
     recipes:
       - LancerFlatpack
@@ -592,6 +618,10 @@
     - state: kit
   - type: StaticPrice
     price: 6500
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 3
+    recipes:
+      - MarauderFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -652,6 +682,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 500
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - MufflerFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -834,7 +868,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 500
-
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - FixedHardpointFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -849,9 +886,9 @@
     - state: ame-part
   - type: StaticPrice
     price: 9000
-  - type: ReverseEngineering
+  - type: ReverseEngineering # Sector Crescent
     difficulty: 4
-    recipes: 
+    recipes:
       - ShieldEmitterSmallFlatpack
 
 - type: entity
@@ -867,9 +904,9 @@
     - state: ame-part
   - type: StaticPrice
     price: 9000
-  - type: ReverseEngineering
+  - type: ReverseEngineering # Sector Crescent
     difficulty: 5
-    recipes: 
+    recipes:
       - ShieldEmitterMediumFlatpack
 
 - type: entity
@@ -927,6 +964,9 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - HerculesFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -941,6 +981,9 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - EinsteinFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -987,6 +1030,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - WeaponTurretSmallArtilleryFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1001,6 +1048,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - WeaponTurretMediumMachinegunFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1015,6 +1066,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - WeaponTurretSmallMachinegunFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1029,6 +1084,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - WeaponTurretMediumArtilleryFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1043,6 +1102,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - WeaponTurretLargeMachinegunFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1057,6 +1120,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - WeaponTurretLargeArtilleryFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1100,6 +1167,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - BaseWeaponTurretShortbowFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1114,6 +1185,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - BaseWeaponTurretAzimuthFlatpack
 
 - type: entity
   parent: BaseFlatpack
@@ -1128,6 +1203,10 @@
     - state: ame-part
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 2
+    recipes:
+      - BaseWeaponTurretArbalestFlatpack
 
 - type: entity
   parent: BaseFlatpack

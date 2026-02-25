@@ -248,6 +248,11 @@
   - type: Appearance
   - type: StaticPrice
     price: 2000
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponSniperAK60Cyberdawn
+      - WeaponRifleSVDMarksmanNCSP
 
 - type: entity
   name: PTA AC-8 Spear 15.2x169mm

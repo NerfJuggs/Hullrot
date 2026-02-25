@@ -505,6 +505,11 @@
   - type: GunWieldBonus
     minAngle: -19
     maxAngle: -16
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponSubMachineGunCorsairCyberdawn
+      - WeaponSubMachineGunAtreidesCyberdawn
 
 - type: entity
   name: NCSP SR-2MP Atreides 9x19mm
@@ -529,6 +534,9 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: ReverseEngineering
+    recipes:
+      - WeaponSubMachineGunAtreidesCyberdawn
 
 - type: entity
   name: C-20R ROW

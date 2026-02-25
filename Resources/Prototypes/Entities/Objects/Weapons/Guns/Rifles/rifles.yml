@@ -196,6 +196,10 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: ReverseEngineering
+    recipes:
+      - WeaponRifleAkCyberdawn
+      - WeaponRifleKrinkovCyberdawn
 
 - type: entity
   name: NT M-90gl Hercules 7.62x51mm

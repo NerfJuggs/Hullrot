@@ -45,6 +45,10 @@
             - CartridgeHeavyPistol
   - type: StaticPrice
     price: 250
+  - type: ReverseEngineering
+    recipes:
+      - WeaponPistolAnsemCyberdawn
+      - WeaponPistolViperWoodCyberdawn
 
 - type: entity
   name: SHI M038s Liquidator 11mm

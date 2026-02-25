@@ -60,6 +60,11 @@
         fontSize: 12
         color: "#ff4f00"
         requireDetailRange: false
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponLightMachineGunCompaktCyberdawn
+      - WeaponLightMachineGunNCSPRPD
 
 - type: entity
   name: C 54 ROW
@@ -250,7 +255,11 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponLightMachineGunNCSPRPD
+      - WeaponLightMachineGunCompaktCyberdawn
 
 - type: entity
   name: IRM DA-12S Dominion 5.56x45mm

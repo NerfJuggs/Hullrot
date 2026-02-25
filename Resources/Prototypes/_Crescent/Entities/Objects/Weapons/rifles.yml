@@ -49,6 +49,13 @@
     zeroVisible: true
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponRifleUnderdogCyberdawn
+      - WeaponRifleMayflower
+      - WeaponRifleAkCyberdawn
+      - WeaponRifleKrinkovCyberdawn
 
 - type: entity
   name: IRM DA-1R Muster 5.56x45mm
@@ -705,6 +712,10 @@
     price: 800
   - type: Contraband
     value: 3
+  - type: ReverseEngineering
+    recipes:
+      - WeaponRifleKrinkovCyberdawn
+      - WeaponRifleAkCyberdawn
 
 - type: entity
   name: PTA 3AX Halyad 12.7x99mm
@@ -932,6 +943,13 @@
     price: 1500
   - type: Contraband
     value: 3
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponRifleMayflower
+      - WeaponRifleUnderdogCyberdawn
+      - WeaponRifleAkCyberdawn
+      - WeaponRifleKrinkovCyberdawn
 
 - type: entity
   name: SHI M335 Barghest 12.7x99mm
@@ -1056,6 +1074,11 @@
   - type: Appearance
   - type: StaticPrice
     price: 1000
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - WeaponRifleSVDMarksmanNCSP
+      - WeaponSniperAK60Cyberdawn
 
 - type: entity
   name: HGS ZoG-44 Hund 5.56x45mm

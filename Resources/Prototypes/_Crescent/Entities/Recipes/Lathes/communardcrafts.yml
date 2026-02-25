@@ -509,7 +509,7 @@
     Gold: 300
     Silver: 500
     Steel: 3000
-    Tungsten: 1500
+    Tungsten: 2500
 
 - type: latheRecipe
   id: BogatyrFlatpack

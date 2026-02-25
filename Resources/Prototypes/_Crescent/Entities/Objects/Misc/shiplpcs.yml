@@ -746,6 +746,9 @@
     price: 7500
   - type: ShipVoucher
     ship: Bodybag
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - BodybagLPC
 
 - type: entity
   parent: BaseItem
@@ -763,6 +766,9 @@
     price: 27500
   - type: ShipVoucher
     ship: Cleaver
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - CleaverLPC
 
 - type: entity
   parent: BaseItem
@@ -780,6 +786,9 @@
     price: 60000
   - type: ShipVoucher
     ship: Eradicator
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - EradicatorLPC
 
 - type: entity
   parent: BaseItem
@@ -814,6 +823,9 @@
     price: 37500
   - type: ShipVoucher
     ship: Ouroboros
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - OuroborosLPC
 
 - type: entity
   parent: BaseItem
@@ -831,6 +843,9 @@
     price: 15000
   - type: ShipVoucher
     ship: Itch
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ItchLPC
 
 - type: entity
   parent: BaseItem
@@ -848,6 +863,9 @@
     price: 5000
   - type: ShipVoucher
     ship: Tick
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - TickLPC
 
 - type: entity
   parent: BaseItem
@@ -865,6 +883,9 @@
     price: 7500
   - type: ShipVoucher
     ship: Gnat
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - GnatLPC
 
 - type: entity
   parent: BaseItem
@@ -882,6 +903,9 @@
     price: 30000
   - type: ShipVoucher
     ship: Harpy
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - HarpyLPC
 
 - type: entity
   parent: BaseItem
@@ -899,6 +923,9 @@
     price: 30000
   - type: ShipVoucher
     ship: Corvax
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - CorvaxLPC
 
 - type: entity
   parent: BaseItem
@@ -933,6 +960,9 @@
     price: 40000
   - type: ShipVoucher
     ship: Sinn
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - BoSinnLPC
 
 - type: entity
   parent: BaseItem
@@ -950,6 +980,9 @@
     price: 45000
   - type: ShipVoucher
     ship: Thanapod
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ThanapodLPC
 
 - type: entity
   parent: BaseItem
@@ -967,6 +1000,9 @@
     price: 50000
   - type: ShipVoucher
     ship: Hyena
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - HyenaLPC
 
 - type: entity
   parent: BaseItem
@@ -984,6 +1020,29 @@
     price: 40000
   - type: ShipVoucher
     ship: Hulk
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - HulkLPC
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherFridge
+  name: IPC 'Fridge' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Interdyne Pharmaceuticals Fridge-class medical transport pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 5000
+  - type: ShipVoucher
+    ship: Fridge
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - FridgeLPC
 
 - type: entity
   parent: BaseItem
@@ -1001,6 +1060,29 @@
     price: 9000
   - type: ShipVoucher
     ship: Meatwagon
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - MeatwagonLPC
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherMatabele
+  name: IPC 'Matabele' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Interdyne Pharmaceuticals Matabele-class medical stealth transport pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 8000
+  - type: ShipVoucher
+    ship: Matabele
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - MatabeleLPC
 
 - type: entity
   parent: BaseItem
@@ -1018,6 +1100,9 @@
     price: 5000
   - type: ShipVoucher
     ship: Piranha
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - PiranhaLPC
 
 - type: entity
   parent: BaseItem
@@ -1035,6 +1120,9 @@
     price: 6000
   - type: ShipVoucher
     ship: Scuttlefish
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ScuttlefishLPC
 
 - type: entity
   parent: BaseItem
@@ -1052,6 +1140,9 @@
     price: 12000
   - type: ShipVoucher
     ship: Reaver
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ReaverLPC
 
 - type: entity
   parent: BaseItem
@@ -1069,6 +1160,9 @@
     price: 50000
   - type: ShipVoucher
     ship: Wolf
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - WolfLPC
 
 - type: entity
   parent: BaseItem
@@ -1086,6 +1180,9 @@
     price: 5000
   - type: ShipVoucher
     ship: Shanty
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ShantyLPC
 
 - type: entity
   parent: BaseItem
@@ -1103,6 +1200,9 @@
     price: 60000
   - type: ShipVoucher
     ship: Velator
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - VelatorLPC
 
 - type: entity
   parent: BaseItem
@@ -1120,6 +1220,9 @@
     price: 60000
   - type: ShipVoucher
     ship: Taipan
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - TaipanLPC
 
 - type: entity
   parent: BaseItem
@@ -1137,6 +1240,9 @@
     price: 35000
   - type: ShipVoucher
     ship: Wisp
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - WispLPC
 
 - type: entity
   parent: BaseItem
@@ -1154,6 +1260,9 @@
     price: 38000
   - type: ShipVoucher
     ship: Spriggan
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - SprigganLPC
 
 - type: entity
   parent: BaseItem
@@ -1171,6 +1280,9 @@
     price: 27000
   - type: ShipVoucher
     ship: Wreck
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - WreckLPC
 
 #CMM OLD
 
@@ -1555,7 +1667,9 @@
     price: 3000
   - type: ShipVoucher
     ship: Rockchipper
-
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - RockchipperLPC
 
 - type: entity
   parent: BaseItem
@@ -1693,6 +1807,29 @@
     price: 27000
   - type: ShipVoucher
     ship: Geode
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - GeodeLPC
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherMercuryMK2
+  name: SAW 'Mercury MKII' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with an SAW Mercury MKII-class fighter. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 27000
+  - type: ShipVoucher
+    ship: Mercurymk2
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - MercuryMK2LPC
 
 - type: entity
   parent: BaseItem
@@ -1710,6 +1847,9 @@
     price: 135000
   - type: ShipVoucher
     ship: Rokh
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - RokhLPC
 
 - type: entity
   parent: BaseItem
@@ -1727,6 +1867,9 @@
     price: 55000
   - type: ShipVoucher
     ship: Caracal
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - CaracalLPC
 
 - type: entity
   parent: BaseItem
@@ -1744,6 +1887,9 @@
     price: 90000
   - type: ShipVoucher
     ship: Amadeus
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - AmadeusLPC
 
 - type: entity
   parent: BaseItem
@@ -1761,6 +1907,9 @@
     price: 18000
   - type: ShipVoucher
     ship: Scabrak
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ScabrakLPC
 
 - type: entity
   parent: BaseItem

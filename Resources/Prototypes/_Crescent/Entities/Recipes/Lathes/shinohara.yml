@@ -296,8 +296,8 @@
   completetime: 2
   materials:
     Steel: 2500
-    Silver: 1000
-    BallisticCycler: 500
+    Plastic: 1000
+    BasicMechatronics: 500
 
 - type: latheRecipe
   id: WeaponPistolMk58SHI
@@ -372,7 +372,7 @@
   materials:
     Steel: 3000
     Plastic: 1500
-    TubeLoader: 500
+    BallisticCycler: 500
 
 - type: latheRecipe
   id: WeaponLightMachineGunL6
@@ -846,18 +846,6 @@
     BasicMechatronics: 1500
     Silver: 1000
     Steel: 2000
-
-
-- type: latheRecipe
-  id: FixedHardpointFlatpack
-  result: FixedHardpointFlatpack
-  completetime: 2
-  materials:
-    BasicMechatronics: 500
-    BasicElectronics: 500
-    Gold: 500
-    Silver: 500
-    Steel: 1000
 
 #MARK:Components
 

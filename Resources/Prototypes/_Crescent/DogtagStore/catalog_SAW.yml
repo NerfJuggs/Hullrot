@@ -25,6 +25,8 @@
   name: Ship Weapons
   priority: 9
 
+# SHIP GUNS
+
 - type: listing
   id: StoreListing20mmcannon
   name: 20mm 'Screamer' light carbine repeater cannon flatpack
@@ -124,6 +126,8 @@
   categories:
   - StoreCategorySAWGuns
 
+# EQUIPMENT
+
 - type: listing
   id: StoreListingSAWMachete
   name: Kinetic Machete
@@ -189,6 +193,8 @@
     ScrapSAW: 30
   categories:
   - StoreCategorySAW
+
+# SHIP FLATPACKS
 
 - type: listing
   id: StoreListingSAWShieldMedium
@@ -376,6 +382,85 @@
     ScrapSAW: 10
   categories:
   - StoreCategorySAWshipmods
+
+# LPCS
+
+- type: listing
+  id: StoreListingSAWRockchipper
+  name: SAW Rockchipper LPC
+  description: An utterly wretched mining ship made out of two cannibalized Termite-class hulls. Breaks asteroids well, though.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherRockchipper
+  cost:
+    ScrapSAW: 10
+  categories:
+  - StoreCategorySAWships
+
+- type: listing
+  id: StoreListingSAWShanty
+  name: SAW Shanty LPC
+  description: THE classic Shipfitters salvaging vessel, capable of recieving nearly any modification assuming ample user creativity.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherShanty
+  cost:
+    ScrapSAW: 15
+  categories:
+  - StoreCategorySAWships
+
+- type: listing
+  id: StoreListingSAWMercuryMK2
+  name: SAW Mercury MKII LPC
+  description: A Mercury-class frigate that was blown up and reassembled into a lead-spitting fighter.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherMercuryMK2
+  cost:
+    ScrapSAW: 15
+  categories:
+  - StoreCategorySAWships
+
+- type: listing
+  id: StoreListingSAWScabrak
+  name: SAW Scabrak LPC
+  description: A product of one particularly drunk foreman seeing a Bogatyr-class ship, and then asking if it could mine. Shockingly good platform for weaponization.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherScabrak
+  cost:
+    ScrapSAW: 30
+  categories:
+  - StoreCategorySAWships
+
+- type: listing
+  id: StoreListingSAWThanapod
+  name: SAW Thanapod LPC
+  description: A Shipfitters original design of a cruiser-sized mining barge.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherThanapod
+  cost:
+    ScrapSAW: 30
+  categories:
+  - StoreCategorySAWships
+
+- type: listing
+  id: StoreListingSAWHyena
+  name: SAW Hyena LPC
+  description: A converted and outdated Covetor-class mining barge, perfect for modification.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherHyena
+  cost:
+    ScrapSAW: 60
+  categories:
+  - StoreCategorySAWships
+
+- type: listing
+  id: StoreListingSAWGeode
+  name: SAW Geode LPC
+  description: A decently armored and upgradable destroyer-class vessel, armed with a healthy sum of ballistics both PD and artillery.
+  icon: { sprite: _Crescent/Objects/Misc/lpcchip.rsi, state: icon }
+  productEntity: ShipVoucherGeode
+  cost:
+    ScrapSAW: 100
+  categories:
+  - StoreCategorySAWships
 
 - type: listing
   id: StoreListingSAWCaracal
