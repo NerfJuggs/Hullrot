@@ -418,6 +418,113 @@
         posX: 0
         posY: 0
         IFFColor: White
+        posY: -8000
+        IFFColor: Orange
+        IFFFaction: NCWL
+#      Dochenskaya:
+#        gameMapID: Dochenskaya
+#        posX: -9000
+#        posY: 0
+#        IFFColor: IndianRed
+#        IFFFaction: TFSC
+#      GliessSanto:
+#        gameMapID: GliessSanto
+#        posX: 7000
+#        posY: -1000
+#        IFFColor: White
+      Tatsumoto:
+        gameMapID: Tatsumoto
+        posX: 7000
+        posY: 1000
+        IFFColor: White
+        IFFFaction: SHI
+      Countsman:
+        gameMapID: Countsman
+        posX: 0
+        posY: 8000
+        IFFColor: Purple
+        IFFFaction: DSM
+#      TribalHideout:
+#        gameMapID: TribalHideout
+#        posX: 8000
+#        posY: 0
+#        IFFColor: White
+#        IFFFaction: TAP
+#      Jackal:
+#        gameMapID: Jackal
+#        posX: -8000
+#         posY: 1000
+#        IFFColor: IndianRed
+#        IFFFaction: TFSC
+      Dawnbreaker:
+        gameMapID: Dawnbreaker
+        posX: -8000
+        posY: -1000
+        IFFColor: IndianRed
+        IFFFaction: TFSC
+      Graveyard:
+        gameMapID: Graveyard
+        posX: -5500
+        posY: 5500
+      #StrandedShip:
+        #gameMapID: StrandedShip
+        #posX: 4275
+        #posY: 5430
+        #HideIFF: true
+      #Fighter1:
+        #gameMapID: Fighter1
+        #posX: 4995
+        #posY: 6330
+        #HideIFF: true
+      #Fighter2:
+        #gameMapID: Fighter2
+        #posX: 4982
+        #posY: 6525
+        #HideIFF: true
+      #SolarSailorDerelict:
+        #gameMapID: SolarSailorDerelict
+        #posX: 5025
+        #posY: 5205
+        #HideIFF: true
+      #ImperialHaulerWreck:
+        #gameMapID: ImperialHaulerWreck
+        #posX: 4980
+        #posY: 6075
+        #HideIFF: true
+      #FogwreckedDerelict:
+        #gameMapID: FogwreckedDerelict
+        #posX: 1800
+        #posY: -10500
+        #HideIFF: true
+      Craster:
+        gameMapID: Craster
+        posX: 0
+        posY: 0
+      Taypan1AsteroidBelt:
+        gameMapID: Taypan1AsteroidBelt
+        posX: 5500
+        posY: 5500
+      Taypan2AsteroidBelt:
+        gameMapID: Taypan2AsteroidBelt
+        posX: -5500
+        posY: -5500
+      TribalScrapyard:
+        gameMapID: TribalScrapyard
+        posX: 5500
+        posY: -5500
+#      Hayes:
+#        gameMapID: Hayes
+#        posX: -7000
+#        posY: 0
+#        IFFColor: IndianRed
+#        IFFFaction: TFSC
+      #AncientBattlefield:
+        #gameMapID: AncientBattlefield
+        #posX: -5500
+        #posY: 5500
+
+
+### Low Pop Alternate Modes ###
 
 - type: gamePreset
   id: PlanetfallMode
