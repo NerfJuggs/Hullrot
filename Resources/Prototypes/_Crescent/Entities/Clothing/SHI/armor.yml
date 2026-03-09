@@ -3,7 +3,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, StreeCredRedeemable]
   id: ClothingOuterHardsuitMetrocop
-  name: SHI-WTI OTA-1 "Metropolis" security softsuit
+  name: SHI-WTI CMP-1 "Metropolis" security softsuit
   description: A softsuit padded with durathread soft plates. very effective against low-power rounds and buckshot but weak against rifle rounds. Commony used by peace enforcers in mega cities.
   components:
   - type: Sprite
