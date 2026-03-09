@@ -4,7 +4,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMetrocop
   categories: [ HideSpawnMenu ]
-  name: SHI-WTI OTA-1 "Metrocop" ballistic helmet
+  name: SHI-WTI OTA-1 "Metropolis" ballistic helmet
   description: A underarmored combat hardsuit helmet with a built in gasmask.
   components:
   - type: BreathMask
