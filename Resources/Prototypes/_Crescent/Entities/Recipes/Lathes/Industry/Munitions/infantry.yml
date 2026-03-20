@@ -6,7 +6,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 10
-    Gunpowder: 10
+    gunpowder: 10
     Steel: 10
 
 # 11mm
@@ -17,7 +17,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 15
-    Gunpowder: 15
+    gunpowder: 15
     Steel: 20
 
 # .327
@@ -28,7 +28,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 12
-    Gunpowder: 12
+    gunpowder: 12
     Steel: 20
 
 # 5.56
@@ -39,7 +39,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 20
-    Gunpowder: 20
+    gunpowder: 20
     Steel: 35
 
 # 7.62
@@ -50,7 +50,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 35
-    Gunpowder: 35
+    gunpowder: 35
     Steel: 50
 
 # 12.7x99mm
@@ -61,7 +61,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 60
-    Gunpowder: 60
+    gunpowder: 60
     Steel: 100
 
 # 15.2x169mm
@@ -72,7 +72,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 100
-    Gunpowder: 120
+    gunpowder: 120
     Steel: 140
 
 # 12g
@@ -83,7 +83,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 25
-    Gunpowder: 25
+    gunpowder: 25
     Steel: 40
 
 # 4g
@@ -94,7 +94,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 70
-    Gunpowder: 70
+    gunpowder: 70
     Steel: 120
 
 - type: latheRecipe
@@ -104,7 +104,7 @@
   category: Ammo
   materials:
     LightGaugeCasing: 100
-    Gunpowder: 80
+    gunpowder: 80
     Tungsten: 40
 
 
