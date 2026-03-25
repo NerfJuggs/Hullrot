@@ -1,10 +1,11 @@
 - type: entity
   id: ShuttleLightRed
-  suffix: Red
+  name: red shuttle light
+  suffix: Crescent, Red
   parent: Poweredlight
   components:
   - type: PoweredLight
-    hasLampOnSpawn: LightTubeCrystalRed
+    hasLampOnSpawn: ShuttleLightRedTube
     damage:
       types:
         Heat: 2
@@ -16,12 +17,13 @@
 
 - type: entity
   id: ShuttleLightSodium
+  name: shuttle light
   description: "A light fixture. Draws power and produces light when equipped with a light tube."
-  suffix: Sodium
+  suffix: Crescent, Sodium
   parent: Poweredlight
   components:
   - type: PoweredLight
-    hasLampOnSpawn: SodiumLightTube
+    hasLampOnSpawn: ShuttleLightTube
     damage:
       types:
         Heat: 2
@@ -33,9 +35,15 @@
 
 - type: entity
   id: ShuttleSmallLightSodium
-  suffix: Sodium
-  parent: PoweredSmallLightEmpty
+  name: small shuttle light
+  suffix: Crescent, Sodium
+  parent: PoweredSmallLight
   components:
+  - type: PoweredLight
+    hasLampOnSpawn: ShuttleLightBulb
+    damage:
+      types:
+        Heat: 2
   - type: Sprite
     state: base
   - type: PointLight
