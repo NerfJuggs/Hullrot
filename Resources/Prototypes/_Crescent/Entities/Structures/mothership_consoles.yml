@@ -309,3 +309,12 @@
   - type: ShipyardListing
     shuttles:
     - Peasant
+
+- type: entity
+  id: HerderMothershipComputer
+  parent: BaseMothershipComputer
+  name: herder internal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Stain

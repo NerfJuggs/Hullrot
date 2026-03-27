@@ -2181,3 +2181,39 @@
     price: 2500
   - type: ShipVoucher
     ship: Lungspot
+
+# Scrapyard Ships
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherHerder
+  name: Scrapyard 'Herder' pattern LPC fabprint disk
+  description: A hacked and burned LPC disk containing the 'Herder' converted cargo ship.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 10000
+  - type: ShipVoucher
+    ship: Herder
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherAnthead
+  name: Scrapyard 'Anthead' pattern LPC fabprint disk
+  description: A hacked and burned LPC disk containing the 'Anthead' scrap ship.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 2500
+  - type: ShipVoucher
+    ship: Anthead
