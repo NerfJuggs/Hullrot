@@ -300,8 +300,8 @@
           variation: 0.08
     - type: BasicEntityAmmoProvider
       proto: BulletRetribution
-      capacity: 150
-      count: 150
+      capacity: 400
+      count: 400
     - type: ApcPowerReceiver
       powerLoad: 2500
     - type: HardpointAnchorableOnly
