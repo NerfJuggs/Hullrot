@@ -31,12 +31,10 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 180
-      burstFireRate: 15
-      burstCooldown: 0.7
-      shotsPerBurst: 6
-      selectedMode: Burst
+      fireRate: 20
+      selectedMode: FullAuto
       availableModes:
-        - Burst
+        - FullAuto
       angleDecay: 1
       minAngle: 0.4
       maxAngle: 2.8
@@ -565,7 +563,7 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 100
+      projectileSpeed: 150
       fireRate: 0.3
       selectedMode: FullAuto
       availableModes:
