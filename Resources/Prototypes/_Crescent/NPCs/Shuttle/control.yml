@@ -93,7 +93,7 @@
       enum.DroneConsoleUiKey.Key:
         type: DroneConsoleBoundUserInterface
   - type: RadarConsole
-    maxRange: 1524
+    maxRange: 1024
   - type: WorldLoader
     radius: 256
   - type: DeviceNetwork
@@ -112,7 +112,7 @@
   - type: DroneControlConsole
     maxOrderRadius: null # infinite
   - type: RadarConsole
-    maxRange: 2548
+    maxRange: 2048
 
 - type: deviceFrequency
   id: DroneControl
