@@ -43,7 +43,7 @@
     - BaseMagazineCaselessRifleEmpty
     - SpeedLoaderMagnumEmpty
     - MagazineRocketEmpty
-    - Magazine90mmEmpty
+    # - Magazine90mmEmpty
 
 - type: entity
   parent: BaseLathe
