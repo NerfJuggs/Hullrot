@@ -13,115 +13,52 @@
   components:
   - type: SalvageMobRestrictions
 
-# Delta V variants of Xenos to allow ghost takeover again
-#
-#- type: entity
-#  name: Burrower
-#  id: MobXenoPlayer
-#  parent: MobXeno
-#  suffix: Player
-#  components:
-#  - type: GhostRole
-#    allowMovement: true
-#    allowSpeech: true
-#    makeSentient: true
-#    name: ghost-role-information-xeno-name
-#    description: ghost-role-information-xeno-description
-#    rules: ghost-role-information-xeno-rules
-#  - type: GhostTakeoverAvailable
-#
-#- type: entity
-#  name: Praetorian
-#  parent: MobXenoPraetorianNPC
-#  id: MobXenoPraetorian
-#  suffix: Player
-#  components:
-#  - type: GhostRole
-#    allowMovement: true
-#    allowSpeech: true
-#    makeSentient: true
-#    name: ghost-role-information-xeno-name
-#    description: ghost-role-information-xeno-description
-#    rules: ghost-role-information-xeno-rules
-#  - type: GhostTakeoverAvailable
-#
-#- type: entity
-#  name: Drone
-#  parent: MobXenoDroneNPC
-#  id: MobXenoDrone
-#  suffix: Player
-#  components:
-#  - type: GhostRole
-#    allowMovement: true
-#    allowSpeech: true
-#    makeSentient: true
-#    name: ghost-role-information-xeno-name
-#    description: ghost-role-information-xeno-description
-#    rules: ghost-role-information-xeno-rules
-#  - type: GhostTakeoverAvailable
-#
-#- type: entity
-#  name: Queen
-#  parent: MobXenoQueenNPC
-#  id: MobXenoQueen
-#  suffix: Player
-#  components:
-#  - type: GhostRole
-#    allowMovement: true
-#    allowSpeech: true
-#    makeSentient: true
-#    name: ghost-role-information-xeno-name
-#    description: ghost-role-information-xeno-description
-#    rules: ghost-role-information-xeno-rules
-#  - type: GhostTakeoverAvailable
-#
-#- type: entity
-#  name: Ravager
-#  parent: MobXenoRavagerNPC
-#  id: MobXenoRavager
-#  suffix: Player
-#  components:
-#  - type: GhostRole
-#    allowMovement: true
-#    allowSpeech: true
-#    makeSentient: true
-#    name: ghost-role-information-xeno-name
-#    description: ghost-role-information-xeno-description
-#    rules: ghost-role-information-xeno-rules
-#  - type: GhostTakeoverAvailable
-#
-#- type: entity
-#  name: Runner
-#  parent: MobXenoRunnerNPC
-#  id: MobXenoRunner
-#  suffix: Player
-#  components:
-#  - type: GhostRole
-#    allowMovement: true
-#    allowSpeech: true
-#    makeSentient: true
-#    name: ghost-role-information-xeno-name
-#    description: ghost-role-information-xeno-description
-#    rules: ghost-role-information-xeno-rules
-#  - type: GhostTakeoverAvailable
+# Delta V variants of Xenos to allow ghost takeover again - except not anymore and these are just kept around for linter purposes
+
+- type: entity
+  name: Burrower
+  id: MobXenoPlayer
+  parent: MobXeno
+  suffix: Player
+
+- type: entity
+  name: Praetorian
+  parent: MobXenoPraetorianNPC
+  id: MobXenoPraetorian
+  suffix: Player
+
+- type: entity
+  name: Drone
+  parent: MobXenoDroneNPC
+  id: MobXenoDrone
+  suffix: Player
+
+- type: entity
+  name: Queen
+  parent: MobXenoQueenNPC
+  id: MobXenoQueen
+  suffix: Player
+
+- type: entity
+  name: Ravager
+  parent: MobXenoRavagerNPC
+  id: MobXenoRavager
+  suffix: Player
+
+- type: entity
+  name: Runner
+  parent: MobXenoRunnerNPC
+  id: MobXenoRunner
+  suffix: Player
 
 - type: entity
   name: Rouny
   parent: MobXenoRounyNPC
   id: MobXenoRouny
 
-#
-#- type: entity
-#  name: Spitter
-#  parent: MobXenoSpitterNPC
-#  id: MobXenoSpitter
-#  suffix: Player
-#  components:
-#  - type: GhostRole
-#    allowMovement: true
-#    allowSpeech: true
-#    makeSentient: true
-#    name: ghost-role-information-xeno-name
-#    description: ghost-role-information-xeno-description
-#    rules: ghost-role-information-xeno-rules
-#  - type: GhostTakeoverAvailable
+- type: entity
+  name: Spitter
+  parent: MobXenoSpitterNPC
+  id: MobXenoSpitter
+  suffix: Player
+
