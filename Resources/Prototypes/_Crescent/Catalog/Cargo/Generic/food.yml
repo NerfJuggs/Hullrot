@@ -8,6 +8,26 @@
   category: cargoproduct-category-name-food
   group: generic
 
+- type: cargoProduct
+  id: FoodMRENCWL
+  icon:
+    sprite: _Crescent/Objects/Consumables/Food/ration.rsi
+    state: dsmrationclosed
+  product: CrateFoodRationNCWL
+  cost: 5000
+  category: cargoproduct-category-name-food
+  group: generic
+
+- type: cargoProduct
+  id: FoodMREBootleg
+  icon:
+    sprite: _Crescent/Objects/Consumables/Food/ration.rsi
+    state: dsmrationclosed
+  product: CrateFoodRationGeneric
+  cost: 5000
+  category: cargoproduct-category-name-food
+  group: generic
+
 #- type: cargoProduct
 #  id: FoodMREGeneric
 #  icon:
