@@ -190,6 +190,7 @@
       state: icon
   - type: Sharp
   - type: MeleeWeapon
+    attackRate: 0.8
     wideAnimationRotation: -135
     range: 1
     damage:
@@ -209,7 +210,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 5
+        Blunt: 8
   # - type: DamageOtherOnHit
   #   staminaCost: 10
   - type: Tool
