@@ -126,7 +126,7 @@
       size: Medium
 
 - type: entity
-  parent: BaseTurretShipgun
+  parent: WeaponTurretCurse
   id: WeaponTurretCurseNavy
   suffix: Medium Energy, Navy
   name: Navy 300w 'Mandate' EMP Projector
@@ -231,7 +231,7 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 180
+      projectileSpeed: 105
       burstFireRate: 20
       burstCooldown: .2
       shotsPerBurst: 3
@@ -263,7 +263,7 @@
       size: Small
 
 - type: entity
-  parent: BaseTurretShipgun
+  parent: WeaponTurretRetribution
   id: WeaponTurretRetributionNavy
   suffix: Small Laser, Navy
   name: Navy 200cc 'Solaris' Pulse Laser
@@ -341,9 +341,9 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 200
+      projectileSpeed: 110
       burstFireRate: 20 #6.67 effective RPS
-      burstCooldown: 1
+      burstCooldown: 1.05
       shotsPerBurst: 10
       selectedMode: Burst
       availableModes:
@@ -373,7 +373,7 @@
       size: Medium
 
 - type: entity
-  parent: BaseTurretShipgun
+  parent: WeaponTurretAbsolution
   id: WeaponTurretAbsolutionNavy
   suffix: Medium Laser, Navy
   name: Navy 350cc 'Absolution' Burst Laser
@@ -446,7 +446,7 @@
       size: Large
 
 - type: entity
-  parent: BaseTurretShipgun
+  parent: WeaponTurretDamnation
   id: WeaponTurretDamnationNavy
   suffix: Large Energy, Navy
   name: Navy 600cc 'Dominus' Carronade
