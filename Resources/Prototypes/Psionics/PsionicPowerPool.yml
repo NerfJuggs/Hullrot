@@ -23,8 +23,8 @@
     DispelPower: 1
     TelegnosisPower: 1
     PsionicRegenerationPower: 1
-    MassSleepPower: 0.25
-    PsionicInvisibilityPower: 0.25
+    # MassSleepPower: 0.25
+    # PsionicInvisibilityPower: 0.25
     MindSwapPower: 0.1
 
 - type: weightedRandom
