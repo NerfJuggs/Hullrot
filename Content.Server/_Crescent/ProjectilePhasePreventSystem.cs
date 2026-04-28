@@ -117,8 +117,8 @@ public class ProjectilePhasePreventerSystem : EntitySystem
                 worldPos = _trans.GetWorldPosition(owner);
                 if ((worldPos - phase.start).IsLengthZero())
                     continue;
-                CollisionRay ray = new CollisionRay(phase.start, (worldPos - phase.start).Normalized(), phase.relevantBitmasks);
-                var rayLength = (worldPos - phase.start).Length();
+                CollisionRay ray = new CollisionRay(worldPos, (phase.start - worldPos).Normalized(), phase.relevantBitmasks);
+                var rayLength = (phase.start - worldPos).Length();
                 phase.start = worldPos;
                 var bulletFixtures = fixtureQuery.GetComponent(owner);
                 var bulletString = bulletFixtures.Fixtures.Keys.First();
