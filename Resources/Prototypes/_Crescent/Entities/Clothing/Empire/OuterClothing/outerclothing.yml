@@ -325,6 +325,19 @@
 
 - type: entity
   parent: ClothingOuterHardsuitImperialSoldier
+  id: ClothingOuterHardsuitImperialBanneret
+  name: MECS Typ 1 'SABRE' Modified Hardsuit
+  description: A variation of the MECS Typ1 hardsuit designed to distinguish minor nobility on the battlefield. It's outfitted with pauldrons and a skirt, with some tasteful gold plating.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatebanneret.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatebanneret.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialBanneret
+
+- type: entity
+  parent: ClothingOuterHardsuitImperialSoldier
   id: ClothingOuterHardsuitImperialCoronet
   name: MECS Typ 1 'CORONET' Modified Hardsuit
   description: A personalized MECS Typ 1 hardsuit, used by Madame Valkenrath-Zehring in many campaigns in the Taypan system. It has now had its electronic guts scooped out, and the helmet removed. The paint is kept pristine by the museum keeper on Kal Surezai.
