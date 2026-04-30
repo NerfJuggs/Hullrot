@@ -114771,7 +114771,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: HeavyReinforcedPlasmaWindow
+- proto: ReinforcedPlasmaWindow
   entities:
   - uid: 12309
     components:
